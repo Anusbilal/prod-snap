@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		color-scheme: light;
+		font-family: "Poppins";
+	}
+
+	* {
+		@apply border-gray-200 dark:border-gray-800;
+	}
+
+	html,
+	body {
+		@apply text-gray-900 bg-gray-50 font-Poppins;
+	}
+
+	.using-mouse * {
+		outline: none !important;
+	}
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}
+.custom-scrollbar {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
