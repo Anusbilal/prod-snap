@@ -14,7 +14,7 @@
 
 	html,
 	body {
-		@apply text-gray-900 bg-gray-50 font-Poppins;
+		@apply text-gray-900 bg-gray-50 font-Poppins !scroll-smooth;
 	}
 
 	.using-mouse * {

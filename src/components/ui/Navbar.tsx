@@ -18,13 +18,13 @@ export const Navbar = () => {
 
 					<div className='items-center gap-5 px-4 py-[6px] bg-white60 rounded-xl hidden lg:flex backdrop-blur-custom '>
 						{LINKS.map((link) => (
-							<Link
-								to={link.href}
-								key={link.href}
+							<a
+								href={link.href} // href="#section-id"
+								key={link.id}
 								className='cursor-pointer p-2 font-Poppins font-normal text-base text-black900'
 							>
 								{link.label}
-							</Link>
+							</a>
 						))}
 					</div>
 

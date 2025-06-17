@@ -16,7 +16,10 @@ export const BenefitsSection: React.FC = () => {
 	const { width } = useScreenWidth();
 
 	return (
-		<section className='bg-lightblue lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] overflow-hidden grid lg:grid-cols-2  lg:gap-16 gap-8 w-full'>
+		<section
+			className='bg-lightblue lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] overflow-hidden grid lg:grid-cols-2  lg:gap-16 gap-8 w-full'
+			id='benefits'
+		>
 			<div className='flex flex-col gap-6 lg:gap-10 items-center lg:items-start'>
 				<IconButton title='Benefits' src={RocketIcon} />
 

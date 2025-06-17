@@ -24,7 +24,10 @@ export function TestimonialsSection() {
 	const sliderRef = useRef<TestimonialSliderRef>(null);
 
 	return (
-		<div className='lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-16 gap-8 w-full relative overflow-hidden bg-white'>
+		<div
+			className='lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-16 gap-8 w-full relative overflow-hidden bg-white'
+			id='testimonials'
+		>
 			<div className='flex flex-col gap-6 lg:gap-10 items-center lg:items-start col-span-1 z-10'>
 				<IconButton
 					title='Testimonials'

@@ -15,7 +15,10 @@ const FeaturesSection = () => {
 	};
 
 	return (
-		<div className=' lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] flex flex-col items-center lg:gap-16 gap-8 w-full relative overflow-hidden'>
+		<div
+			className=' lg:py-[100px] py-12 px-4 lg:px-[42px] xl:px-[82px] flex flex-col items-center lg:gap-16 gap-8 w-full relative overflow-hidden'
+			id='features'
+		>
 			<div className='flex flex-col gap-4 lg:gap-6 justify-center items-center z-10'>
 				<IconButton
 					title='Features'

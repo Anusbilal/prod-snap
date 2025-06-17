@@ -11,7 +11,7 @@ const Layout = ({ children }: TProps) => {
 			{/* Header Navigation */}
 			<Navbar />
 			{/* Main Content Area */}
-			<main className='flex-grow'>{children}</main>
+			<main className='flex-grow '>{children}</main>
 		</div>
 	);
 };

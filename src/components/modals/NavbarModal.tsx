@@ -32,14 +32,14 @@ const NavbarModal = ({ isOpen, onClose }: Props) => {
 
 			<div className='flex flex-col items-center gap-5 text-lg mt-[38px] mb-[54px]'>
 				{LINKS.map((link) => (
-					<Link
+					<a
 						key={link.href}
-						to={link.href}
+						href={link.href}
 						className='cursor-pointer p-2 font-Poppins font-normal text-base text-black900'
 						onClick={onClose}
 					>
 						{link.label}
-					</Link>
+					</a>
 				))}
 			</div>
 

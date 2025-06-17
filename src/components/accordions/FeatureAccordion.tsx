@@ -15,7 +15,7 @@ const FeatureAccordion = ({
 	isOpen,
 	onToggle,
 }: Props) => {
-	const hoverTimeout = useRef<NodeJS.Timeout | null>(null);
+	const hoverTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
 	return (
 		<div
